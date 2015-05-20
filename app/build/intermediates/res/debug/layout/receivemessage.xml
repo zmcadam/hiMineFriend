@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="mobile"/>
+    <EditText
+        android:id="@+id/telNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numeric="integer"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="content"
+        />
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button"
+        />
+</LinearLayout>
+<!-- From: file:/Users/zmc/AndroidStudioProjects/hiMineFriend/app/src/main/res/layout/receivemessage.xml -->

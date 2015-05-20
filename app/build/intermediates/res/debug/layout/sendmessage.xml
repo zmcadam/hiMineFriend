@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:background="#66CC33"
+	    android:orientation="horizontal">
+		     <Button
+		        android:id="@+id/cancel"
+		        android:layout_width="40dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:text="信息"
+		        android:textSize="15dp"
+		        android:background="#66CC33"
+		        android:gravity="left|center"
+		        android:textColor="#ffffff"
+		        android:layout_margin="12dp"/>
+		     <TextView
+	            android:id="@+id/name"
+	            android:layout_width="40dp"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1"
+	            android:ems="10"
+                android:textSize="15dp"
+                android:background="#66CC33"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_margin="12dp">
+	         </TextView>
+		     <Button
+		        android:id="@+id/add"
+		        android:layout_width="40dp"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:text="详细信息"
+		        android:textSize="15dp"
+		        android:background="#66CC33"
+		        android:gravity="right|center"
+		        android:textColor="#ffffff"
+		        android:layout_margin="12dp"/>
+ 	</LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:gravity="left"/>
+        <Button
+            android:id="@+id/bt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:background="#ffffff"
+            android:textColor="#4D4D4D" />
+    </LinearLayout>
+   
+    
+    
+</LinearLayout>
+<!-- From: file:/Users/zmc/AndroidStudioProjects/hiMineFriend/app/src/main/res/layout/sendmessage.xml -->
